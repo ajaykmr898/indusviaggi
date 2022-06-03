@@ -1066,8 +1066,10 @@ strong {
 
 /*----------------------------------------
 Custom CSS
-
-.contact-us-label {
-  color:  yellow!important;
-}
 ------------------------------------------*/
+.carousel {
+  margin:  0 5%;
+}
+.carousel-custom-bg {
+  background: var(--navbar-bg-color);
+}
