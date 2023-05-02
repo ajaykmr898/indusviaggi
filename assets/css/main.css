@@ -624,8 +624,8 @@ a:hover {
 }
 
 .recommended {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .recommended .card-wrap {
   background-color: #ffffff;
@@ -690,8 +690,6 @@ a:hover {
 
 .special-offers {
   position: relative;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 .special-offers .box {
   position: relative;
@@ -735,7 +733,6 @@ a:hover {
 
 .destinations {
   padding-top: 3rem;
-  padding-bottom: 5rem;
 }
 .destinations .destination-pill .nav-item .nav-link.active {
   background-color: #EFFAFF;
@@ -823,8 +820,8 @@ a:hover {
 }
 
 .popular-routes {
-  padding-top: 5rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .popular-routes .flightLine {
   position: relative;
@@ -859,4 +856,78 @@ a:hover {
 #nav {
   margin-left: auto;
   margin-right: 100px;
+}
+
+.btn-search {
+  max-width: 100%;
+}
+
+.navFormFields {
+  margin: 0 0 10px 50px; 
+}
+
+.navFormFieldsOr {
+  margin: 0 0 10px 50px; 
+  color: white;
+}
+
+.navFormFieldsPhone {
+  color: white;
+}
+
+.contactImage {
+  width: 100%;
+  height: auto !important;
+  border-radius: 100px;
+}
+
+.contactText {
+  margin-top: 15px;
+}
+
+.whyBookBox {
+  background-color: #175873 !important;
+}
+
+.special-offers .box {
+  align-items: flex-end !important;
+  height: 250px;
+}
+
+.whyBookBoxText {
+  text-align: center;
+  color: white;
+}
+
+.whyBookBoxImage {
+  margin-left: 28%;
+}
+
+.destinationImages {
+  width: 100%;
+  border-radius:50%;
+  height: 120px;
+}
+
+.links {
+  color: #000;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.liLinks {
+  margin: 10px 0 0 10px;
+}
+
+.flightsTabs {
+  color: #175873;
+  width: 25%;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-link-active-color: #0393d2;
+}
+
+.date-disabled {
+    background-color: #fff !important;
 }
