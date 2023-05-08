@@ -121,8 +121,8 @@ function initializeEnquireNow() {
       flexType
     ) {
       swal(
-        "Are you sure?",
-        "Want to receive tickets prices within filled dates?",
+        "Conferma",
+        "Vuoi ricevere i prezzi dei biglietti per le date indicate?",
         "warning",
         {
           cancel: true,
@@ -149,8 +149,8 @@ function initializeEnquireNow() {
             chose
           );
           swal({
-            title: "Please wait...",
-            text: "while sending your request to our customer service",
+            title: "Attendere...",
+            text: "mentre inviamo la tua richiesta al nostro servizio clienti",
             icon: "warning",
             closeOnEsc: false,
             closeOnClickOutside: false,
@@ -159,11 +159,11 @@ function initializeEnquireNow() {
         }
       });
     } else {
-      swal("Form not complete", " ", "warning", {
+      swal("Form non completo", " ", "warning", {
         button: "Ok",
       });
       $(".swal-text").append(
-        "Please fill all the fields to proceed: <br> 1) Correct Email or Phone<br>2) Depart From/Arrival To <br> 3) Departure Date/Arrival Date <br> 4) Travellers"
+        "Si prega di compilare tutti i campi per procedere: <br> 1) E-mail o telefono corretti<br>2) Partenza /Arrivo<br> 3) Data di partenza/Data di arrivo<br> 4) Passeggeri"
       );
     }
   });
@@ -581,8 +581,8 @@ function sendMail(
   })
     .done(function () {
       swal(
-        "Thanks - Request sent",
-        "Our customer service will reply to you as soon as possible",
+        "Richiesta inviata",
+        "Il nostro servizio clienti ti risponderà il prima possibile",
         "success",
         {
           button: "Ok",
@@ -599,15 +599,15 @@ function sendMail(
     .fail(function (error) {
       swal(
         "Oops...",
-        "There was a problem with our services. Retry later.",
+        "Si è verificato un problema con i nostri servizi, riprova",
         "error",
         {
-          button: "Close",
+          button: "Chiudi",
         }
       );
     });
 }
-
+/*
 function defaultFunc() {
   let data = [
     { a: "Things to do on trip", b: "Learn More", c: "product01" },
@@ -649,3 +649,4 @@ function promptAskMailPhone() {
     }
   });
 }
+*/
