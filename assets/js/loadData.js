@@ -239,9 +239,9 @@ function setRecomended() {
 
 function setOffers() {
   let data = [
-    { a: "Reasonable Fares", b: "assets/images/bar-chart.png" },
-    { a: "Special Support", b: "assets/images/support.png" },
-    { a: "Happy Customers", b: "assets/images/satisfied.png" },
+    { a: "Tariffe ragionevoli", b: "assets/images/bar-chart.png" },
+    { a: "Supporto speciale", b: "assets/images/support.png" },
+    { a: "Clienti contenti", b: "assets/images/satisfied.png" },
   ];
   let content = "";
   data.map((el) => {
@@ -518,7 +518,7 @@ function setTestimonials() {
 function setDate() {
   document.getElementById(
     "copyright-year"
-  ).innerHTML = `${new Date().getFullYear()} FairoCheap All rights reserved.`;
+  ).innerHTML = `${new Date().getFullYear()} Indus Viaggi All rights reserved.`;
 }
 
 function scrollButton() {
