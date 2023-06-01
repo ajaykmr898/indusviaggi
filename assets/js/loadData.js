@@ -61,7 +61,8 @@ function isEmail(email) {
 }
 
 function isPhone(phone) {
-  var regex = /^\+?([0-9]{2})\)?[-. ]?([0-9]{4})[-. ]?([0-9]{4})$/;
+  var regex =
+    /^\+(9[976]\d|8[987530]\d|6[987]\d|5[90]\d|42\d|3[875]\d|2[98654321]\d|9[8543210]|8[6421]|6[6543210]|5[87654321]|4[987654310]|3[9643210]|2[70]|7|1)\d{1,14}$/;
   return regex.test(phone);
 }
 
@@ -555,9 +556,9 @@ function sendMail(
   oneWayRound
 ) {
   var data = {
-    service_id: "service_anfkdec",
-    template_id: "template_px4i2lf",
-    user_id: "m9YvzMj0HDLG1qHK_",
+    service_id: "service_i9b1ms7",
+    template_id: "template_welkkl9",
+    user_id: "TcG8ZMfxw3irW3R-f",
     template_params: {
       emailOrPhone,
       depFrom,
