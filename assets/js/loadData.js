@@ -1,6 +1,6 @@
 // Scroll Top
 $(document).ready(function () {
-  console.log("sfddhdjhf");
+  console.log("srdgh");
   initializePage();
   scrollButton();
   datepicker("#depDate1");
