@@ -197,9 +197,9 @@ function setRecomended() {
       h: "assets/images/recommended/offers02.jpeg",
     },
     {
-      a: "Sydney",
-      b: "Opera House Sydney",
-      c: "Australia",
+      a: "Milan",
+      b: "Duomo Milan",
+      c: "Italy",
       d: "5.0",
       e: "Exceptional 4",
       h: "assets/images/recommended/offers03.jpeg",
@@ -290,7 +290,7 @@ function setRoutes() {
     },
     {
       a: "assets/images/destinations/destination06.jpg",
-      b: "Udaipur",
+      b: "New Delhi",
       c: "India",
     },
     {
@@ -300,8 +300,8 @@ function setRoutes() {
     },
     {
       a: "assets/images/destinations/destination08.jpg",
-      b: "Auckland",
-      c: "New Zeland",
+      b: "Amritsar",
+      c: "India",
     },
   ];
   let content = "";
@@ -460,40 +460,40 @@ function getLinks(classBox, data) {
 function setTestimonials() {
   let data = [
     {
-      a: "New Delhi - Toronto flight",
-      b: `"My Mom reached safely ..I really appreciate for taking care of everything.Initially I was much hesitant to re book from trip beam because of earlier incidents, but now I would definitely do it again not only me I would recommend my friends also."`,
+      a: "Milan - New Delhi",
+      b: `"Mia madre è arrivata a destinazione senza problemi... Apprezzo molto per aver preso cura di tutto. Lo rifarei sicuramente non solo a me, ma lo consiglierei anche ai miei amici."`,
       c: "assets/images/customer/avatar01.png",
-      d: "Payal Agarwal",
+      d: "Shweta",
     },
     {
-      a: "Sydney - New Delhi flight",
-      b: `This is my second time I am booking with Tripbeam. My first trip was completely hassle free and I expect the same this time. As far booking goes Garima Jain was outstanding; very patient and was paying full attention to what our requirements were."`,
+      a: "Bologna - Casablanca",
+      b: `"Questa è la seconda volta che prenoto con Indus Viaggi. Il mio primo viaggio è stato completamente senza problemi e questa volta mi aspetto lo stesso. Per quanto riguarda la prenotazione, Garima Jain è stata eccezionale; molto paziente e prestava la massima attenzione a quali fossero le nostre esigenze."`,
       c: "assets/images/customer/avatar02.png",
-      d: "Ishaan Khatri",
+      d: "Mustapha",
     },
     {
-      a: "New Delhi - Hyderabad fight",
-      b: `Very patient and excellent customer service by Pawan. Worked with couple of other travel agents, but got the lowest fare only with Tripbeam. Was provided with different routes of flight connectivity and fare options to select the best... Really appreciate TripBeam's customer service.`,
+      a: "Milan - Lagos",
+      b: `"Servizio clienti molto paziente ed eccellente. Ha lavorato con un paio di altri agenti di viaggio, ma ha ottenuto la tariffa più bassa solo con Indus Viaggi. Sono state fornite diverse rotte di connettività di volo e opzioni tariffarie per selezionare la migliore... Apprezzo molto il servizio clienti di Indus Viaggi."`,
       c: "assets/images/customer/avatar03.png",
-      d: "Inaya Ahuja",
+      d: "Methew",
     },
     {
-      a: "Amritsar - London fight",
-      b: `"Awesome Support!!!I am saving his email for future reservations and highly recommend using his services. I asked him to hold my booking for a day, the next day asked him to completely change my tickets and he did not even miss a beat and got what I wanted. Thank You.`,
+      a: "Rome - New York",
+      b: `"Assistenza eccezionale!!! Sto salvando la sua e-mail per prenotazioni future e consiglio vivamente di utilizzare i loro servizi. Gli ho chiesto di sospendere la mia prenotazione per un giorno, il giorno dopo gli ho chiesto di cambiare completamente i miei biglietti e lui non ha nemmeno perso un colpo e ho ottenuto quello che volevo. Grazie."`,
       c: "assets/images/customer/avatar03.png",
-      d: "Kanan Anand",
+      d: "Matteo",
     },
     {
-      a: "Mumbai - New York fight",
-      b: `Customer service is very good of this company and they are very friendly and reasonable in answering all sorts of questions. Highly efficient in providing customer needs. Good job guys."`,
+      a: "New Delhi - Sydney",
+      b: `Customer service is very good from this company and they are very friendly and reasonable in answering all kinds of questions. Highly efficient in meeting customer needs. Good job guys."`,
       c: "assets/images/customer/avatar03.png",
-      d: "Amar Laghari",
+      d: "Priyanka",
     },
     {
-      a: "London - New Delhi fight",
-      b: `I worked with Rahul Arora to book my tickets to India from USA. She did great job finding me itinerary which best suited for my custom needs :) . i dont know whether i have ever received such custom itinerary for my travel, so thank you for your help Rahul.`,
+      a: "Lisbon - New Delhi",
+      b: `I contacted them to book my tickets to India from Lisbon. They did great job finding me itinerary which best suited for my custom needs :) . i dont know whether i have ever received such custom itinerary for my travel, so thank you for your help.`,
       c: "assets/images/customer/avatar03.png",
-      d: "Dhruv Patel",
+      d: "Amit",
     },
   ];
   data = data.sort(() => 0.5 - Math.random()).slice(0, 3);
