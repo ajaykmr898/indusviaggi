@@ -467,7 +467,7 @@ function setTestimonials() {
     },
     {
       a: "Bologna - Casablanca",
-      b: `"Questa è la seconda volta che prenoto con Indus Viaggi. Il mio primo viaggio è stato completamente senza problemi e questa volta mi aspetto lo stesso. Per quanto riguarda la prenotazione, Garima Jain è stata eccezionale; molto paziente e prestava la massima attenzione a quali fossero le nostre esigenze."`,
+      b: `"Questa è la seconda volta che prenoto con Indus Viaggi. Il mio primo viaggio è stato completamente senza problemi e questa volta mi aspetto lo stesso. Per quanto riguarda la prenotazione, Il supporto è stato eccezionale; molto paziente e prestava la massima attenzione a quali fossero le nostre esigenze."`,
       c: "assets/images/customer/avatar02.png",
       d: "Mustapha",
     },
