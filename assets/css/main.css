@@ -876,8 +876,24 @@ a:hover {
 
 /*custom*/
 .img-fluid {
+  height: 150px;
+}
+.img-fluid1 {
   height: 100px;
 }
+.img-fluid2 {
+  height: 100px;
+}
+
+.justify-content-right {
+  justify-content: right;
+  margin-top: 30px;
+}
+
+.iata-logo {
+  margin-left: 30%;
+}
+
 #nav {
   margin-left: auto;
   margin-right: 100px;
